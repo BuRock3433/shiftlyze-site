@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gizlilik Politikası · Shiftlyze</title>
+<style>
+ :root{color-scheme:light dark}
+ body{font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:760px;margin:0 auto;padding:28px 20px 60px;color:#12142b;background:#fff}
+ @media (prefers-color-scheme:dark){body{color:#eceef8;background:#0f1020}a{color:#9aa0ff}}
+ h1{font-size:28px;margin:0 0 4px} h2{font-size:20px;margin-top:34px} .muted{color:#7a7f9a;font-size:14px}
+ table{border-collapse:collapse;width:100%;font-size:14.5px} td,th{border:1px solid #d9dcef;padding:8px 10px;text-align:left;vertical-align:top}
+ .box{background:#eef;border-radius:12px;padding:14px 16px} code{background:#eef;padding:1px 6px;border-radius:6px}
+</style>
+</head><body>
+
+<h1>Gizlilik Politikası</h1>
+<p class="muted">Shiftlyze · Son güncelleme: 26 Ekim 2026</p>
+
+<h2>1. Kimiz?</h2>
+<p>Shiftlyze uygulaması ("Uygulama"), işyerlerinin çalışan giriş-çıkış (mesai) kayıtlarını QR kod ve konum ile tutmasını ve fazla mesai ücretini hesaplamasını sağlar. Uygulamanın geliştiricisi ve işletmecisi: <b>Burak Sunay</b>, <b>Beylikdüzü, İstanbul</b>, e-posta: <b>buraksunaydev@gmail.com</b>.</p>
+<p><b>Roller:</b> Çalışanlarınıza ait kişisel verilerin işlenme amaçlarını ve yöntemlerini <b>çalışanın işvereni (şirket)</b> belirler; bu verilerde şirket <b>veri sorumlusu</b>, biz şirket adına hareket eden <b>veri işleyeniz</b> (6698 sayılı KVKK). Şirket yöneticisi hesabı açarken verdiği bilgiler bakımından ise biz veri sorumlusuyuz.</p>
+
+<h2>2. Hangi verileri işliyoruz?</h2>
+<table>
+<tr><th>Veri</th><th>Ne için</th><th>Notlar</th></tr>
+<tr><td>Ad soyad, kullanıcı adı, şirket adı ve kodu, şifre (şifrelenmiş)</td><td>Hesap oluşturma ve giriş</td><td>Şifreniz tarafımızca okunamaz.</td></tr>
+<tr><td>Mesai kayıtları: giriş/çıkış zamanı, bölge, giriş yöntemi</td><td>Puantaj ve fazla mesai ücreti hesabı</td><td>Şirketin yasal yükümlülükleri nedeniyle hesap silinse de saklanabilir.</td></tr>
+<tr><td><b>Konum</b>: mesai başlangıç ve bitiş noktası; mesai açıkken bölgede olup olmadığınız</td><td>İşyerinde olduğunuzu doğrulamak, bölgeden ayrılınca mesaiyi otomatik bitirmek</td><td>Yalnızca mesai açıkken, arka planda da alınır. <b>Konum geçmişiniz saklanmaz.</b> Mesai dışında konum alınmaz.</td></tr>
+<tr><td>Saatlik ücret ve hesaplanan mesai ücreti</td><td>Mesai ücretinizin hesaplanması</td><td>Ücreti işvereniniz tanımlar.</td></tr>
+<tr><td>Telefon tanımlayıcısı</td><td>Hesabın yalnızca bir telefona bağlanması (başkasının yerine mesai başlatılmasını önlemek)</td><td>Reklam kimliği değildir; izleme için kullanılmaz.</td></tr>
+<tr><td>Bildirim anahtarı (push token)</td><td>Bildirim göndermek</td><td>Bildirim iznini siz verirsiniz.</td></tr>
+<tr><td>Kullanıcı içeriği: sorun bildirimleri, duyurular</td><td>Şirket içi iletişim</td><td>Yalnızca şirketinizin yöneticileri görür.</td></tr>
+<tr><td>Kamera</td><td>İşyerindeki QR kodu okumak</td><td>Görüntü saklanmaz, cihazdan ayrılmaz.</td></tr>
+</table>
+<p>Reklam göstermiyoruz, verilerinizi satmıyoruz, uygulamalar ve siteler arasında sizi izlemiyoruz (izleme/tracking yok).</p>
+
+<h2>3. Hukuki sebepler</h2>
+<p>Veriler; hizmetin sunulması ve iş sözleşmesinin ifası, hukuki yükümlülüklerin yerine getirilmesi (puantaj kayıtlarının tutulması), meşru menfaat ve konum verisi bakımından <b>açık rızanız</b> temelinde işlenir. Konum için rızanızı ilk kullanımda uygulama içinde veririz/alırız; <b>Ayarlar → Konum rızasını geri çek</b> ile istediğiniz zaman geri çekebilirsiniz. Geri çekilmesi, konumla giriş ve otomatik çıkış özelliklerinin çalışmamasına yol açar.</p>
+
+<h2>4. Verileri kimlerle paylaşıyoruz?</h2>
+<ul>
+<li><b>İşvereniniz (şirket yöneticileri):</b> mesai kayıtlarınızı, konum bilgisini (başlangıç/bitiş/bölge çıkışı) ve hesaplanan ücreti görür.</li>
+<li><b>Altyapı sağlayıcıları (alt işleyenler):</b> Supabase (veritabanı ve kimlik doğrulama, sunucular Frankfurt/Almanya), Expo (bildirim gönderim altyapısı). Yönetici bölge eklerken yazdığı arama metni harita arama servisine (Photon / OpenStreetMap) gönderilir.</li>
+<li>Yasal bir zorunluluk olduğunda yetkili makamlar.</li>
+</ul>
+<p><b>Yurt dışına aktarım:</b> Verileriniz yurt dışındaki sunucularda işlenir/saklanır (AB; bildirim altyapısı için ABD). Aktarım KVKK m.9 uyarınca gerekli güvencelerle yapılır.</p>
+
+<h2>5. Saklama süresi</h2>
+<p>Hesabınız aktif olduğu sürece saklarız. Hesabı sildiğinizde giriş bilgileriniz ve profiliniz kapatılır; şirketin yasal yükümlülükleri nedeniyle geçmiş mesai kayıtları şirket kayıtlarında ilgili yasal süreler boyunca saklanır. Şirket sahibi şirketi sildiğinde şirkete ait tüm veriler kalıcı olarak silinir.</p>
+
+<h2>6. Haklarınız (KVKK m.11)</h2>
+<p>Verilerinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltme, silme/yok etme, işleme amacına uygun kullanılıp kullanılmadığını öğrenme, aktarıldığı kişileri bilme, itiraz etme ve zarar halinde tazminat talep etme haklarına sahipsiniz. <b>Uygulama içinden</b> şifre ve kullanıcı adınızı değiştirebilir, konum rızanızı geri çekebilir ve hesabınızı silebilirsiniz (Ayarlar). Diğer talepleriniz için <b>buraksunaydev@gmail.com</b> adresine yazabilirsiniz; çalışan verileriyle ilgili talepler ayrıca işvereninize yöneltilebilir.</p>
+
+<h2>7. Güvenlik</h2>
+<p>Veriler aktarım sırasında şifrelenir (HTTPS). Her şirketin verisi diğerlerinden izole edilir; bir şirketin yöneticisi başka şirketin verisine erişemez. Şifreler tek yönlü şifrelenerek saklanır. Hiçbir sistem %100 güvenli değildir; bir ihlal halinde yasal bildirimleri yaparız.</p>
+
+<h2>8. Çocuklar</h2>
+<p>Uygulama iş yeri çalışanları için tasarlanmıştır; 16 yaşın altındaki kişilere yönelik değildir.</p>
+
+<h2>9. Değişiklikler</h2>
+<p>Bu metni güncelleyebiliriz; önemli değişiklikleri uygulama içinde duyururuz. Güncel metin her zaman bu adreste yayımlanır.</p>
+
+<h2>10. İletişim</h2>
+<p>Burak Sunay · Beylikdüzü, İstanbul · buraksunaydev@gmail.com</p>
+
+</body></html>
